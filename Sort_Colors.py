@@ -1,4 +1,4 @@
-class Sort_Colors:
+class Solutions:
     # @param A a list of integers
     # @return nothing, sort in place
     def sortColors(self, A):
@@ -18,11 +18,6 @@ class Sort_Colors:
         for i in range(index+white,len(A)):
             A[i] = 2
                 
-if __name__ == '__main__':
-    a = [2,0]
-    print a
-    sc = Sort_Colors()
-    sc.sortColors(a)
-    print a
+ 
               
         
